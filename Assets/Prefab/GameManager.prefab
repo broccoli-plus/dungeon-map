@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1712732935875098}
+  m_IsPrefabParent: 1
+--- !u!1 &1712732935875098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759268011961574}
+  - component: {fileID: 114391085006513456}
+  - component: {fileID: 114717115603944240}
+  - component: {fileID: 82116761807442078}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759268011961574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712732935875098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82116761807442078
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712732935875098}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1fcc168939aaac94688f61da8592d042, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114391085006513456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712732935875098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5717f822bca9041b71162914690d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorArray:
+  - {fileID: 1469822131403974, guid: d7cee6699cdf4c2438a8665a1367f69b, type: 2}
+  - {fileID: 1793548666847340, guid: 5139256a6119d3f41835bd1fe202fedb, type: 2}
+  - {fileID: 1242341926110838, guid: c2562d9072287b54989bf733e20435ca, type: 2}
+  - {fileID: 1006106804257676, guid: 073d51755a8b6c24a9e009776b7b08e1, type: 2}
+  - {fileID: 1333278255904090, guid: 3516378a9fd09404e866fae9cfe034be, type: 2}
+  - {fileID: 1989564384865694, guid: a2f6ad87d8370da45ae6ec26c78be4be, type: 2}
+  - {fileID: 1841800547161100, guid: b82395e50094b994c8ab357485f93109, type: 2}
+  - {fileID: 1338393766912904, guid: 3121bf76bcef40b4cacaa4fb0cba6307, type: 2}
+  obstacleArray:
+  - {fileID: 1609678556403736, guid: baba51c424f177e4aacd0619991471f8, type: 2}
+  - {fileID: 1167722803728812, guid: fad70da242b6ffa499055f5321eab1b2, type: 2}
+  - {fileID: 1783855644314300, guid: b9f37f613a0bf354ab21dd303ca1c4ce, type: 2}
+  - {fileID: 1809286984325428, guid: c3415c40c86d3344bace3cb5e20de56c, type: 2}
+  - {fileID: 1021360828024666, guid: 9cf797333b87d2e4d955748cd09adaf3, type: 2}
+  - {fileID: 1943114188630950, guid: a9999c10bf2e95f48894cf51ba78a032, type: 2}
+  wallArray:
+  - {fileID: 1754898973422032, guid: c5d01bf9c151e0e4a9c5fae1cb7dea31, type: 2}
+  - {fileID: 1350947650904994, guid: 002a472a3eaaf714585b17fe54bb7ce3, type: 2}
+  - {fileID: 1794512622712240, guid: 21bc468c5ebe3a9428711674dc03c317, type: 2}
+  - {fileID: 1505774495136142, guid: ac16f3fe14ed87d4595f53cb0297b377, type: 2}
+  doorArray:
+  - {fileID: 1181955776877392, guid: 910f7bb6e5c157b4cb64fb20d1cc034e, type: 2}
+  - {fileID: 1863055101551156, guid: 9f81bda4c9be4ab4ebfe406f7b66916c, type: 2}
+  - {fileID: 1307101860491042, guid: d76556aecd0819d469245aad08e4c3b4, type: 2}
+  exit: {fileID: 1557970936877536, guid: 7a1e8f0f0f0f78d419a48432af36b078, type: 2}
+  emptyColiider: {fileID: 0}
+  enimyArray:
+  - {fileID: 1731664481584458, guid: b2089e822cd9d0b4e94f38668605f3a6, type: 2}
+  - {fileID: 1308855629773008, guid: d5a21d72b80e3bc408b8046fd7bf84b8, type: 2}
+  foodArray:
+  - {fileID: 1343725200420152, guid: 0f8639647eff4534da58a5c780ad6c41, type: 2}
+  - {fileID: 1183447395430542, guid: 08c96dc9a87f80345adc859a7f4fc919, type: 2}
+  player: {fileID: 1038385386163060, guid: 670c9b5707ece514b8fb80380808fea1, type: 2}
+  fire: {fileID: 1386783496934668, guid: 2b3daae3f0cb7574f9468ef72ffbcaa8, type: 2}
+  xSize: 40
+  ySize: 40
+  enimyNumber: 18
+  obstacleNumber: 80
+  foodNumber: 20
+--- !u!114 &114717115603944240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712732935875098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c370cb0cbf24644295e5881b921f4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  food: 400
+  totalLevel: 3
